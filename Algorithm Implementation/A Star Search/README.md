@@ -9,8 +9,8 @@ The algorithm works by maintaining and expanding a set of nodes based on a cost 
 I.	g(n) (Actual Cost): The cost of the path from the start node to the current node n.  
 II.	h(n) (Heuristic Cost): The estimated cost of the cheapest path from the current node n to the goal node. This must be an admissible heuristic (never overestimates the true cost) for A* to guarantee the optimal path.  
 III.	f(n) (Total Estimated Cost): The estimated total cost of the path through n to the goal.  
-
-**Steps:**
+  
+**Steps:**  
 I.	Initialization: Start with the initial node in a priority queue (or open list), ordered by its f(n) value. The priority queue initially contains: (f(start), g(start), start, [start]), where g(start) = 0.  
 II.	Iteration: While the priority queue is not empty:  
 &nbsp;&nbsp;&nbsp;&nbsp;i.	Select Node: Pop the node n with the lowest f(n) value from the priority queue.  
