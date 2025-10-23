@@ -1,7 +1,7 @@
-I. Course Overview:\n
+I. Course Overview:  
 This repository contains the project submissions and implementation artifacts for the Artificial Intelligence course taken during the Fall 2025 session.
 
-II. Purpose and Learning Outcomes:
+II. Purpose and Learning Outcomes:  
 The primary purpose of this course was to introduce fundamental concepts and algorithms in Artificial Intelligence, focusing on problem-solving, search techniques, and knowledge representation.
 
 Key Learning Outcomes:
