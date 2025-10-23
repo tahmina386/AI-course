@@ -6,10 +6,11 @@ ________________________________________
 A* combines the principles of Dijkstra's algorithm (which finds the shortest path by considering the actual cost from the start) and Best-First Search (which uses a heuristic to estimate the cost to the goal).  
 The algorithm works by maintaining and expanding a set of nodes based on a cost function, f(n), for each node n:  
 <p align=center>f(n) = g(n) + h(n)</p>  
-I.	g(n) (Actual Cost): The cost of the path from the start node to the current node n.  
+I.	g(n) (Actual Cost): The cost of the path from the start node to the current node n.
+
 II.	h(n) (Heuristic Cost): The estimated cost of the cheapest path from the current node n to the goal node. This must be an admissible heuristic (never overestimates the true cost) for A* to guarantee the optimal path.  
 III.	f(n) (Total Estimated Cost): The estimated total cost of the path through n to the goal.  
-  
+    
 **Steps:**  
 I.	Initialization: Start with the initial node in a priority queue (or open list), ordered by its f(n) value. The priority queue initially contains: (f(start), g(start), start, [start]), where g(start) = 0.  
 II.	Iteration: While the priority queue is not empty:  
