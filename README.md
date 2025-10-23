@@ -1,4 +1,4 @@
-I. Course Overview:
+I. Course Overview:\n
 This repository contains the project submissions and implementation artifacts for the Artificial Intelligence course taken during the Fall 2025 session.
 
 II. Purpose and Learning Outcomes:
