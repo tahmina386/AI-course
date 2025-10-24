@@ -24,5 +24,5 @@ ________________________________________
 **Complexity**  
 
 The complexity of Best-First Search is highly dependent on the quality of the heuristic function, h(n). b is the branching factor (average number of successors) and d is the depth of the solution.  
-i. **Time Complexity ($O(b^m)$)**: In the worst case, the search might explore the entire state space up to depth $m$ (the maximum depth). However, with a good heuristic, the search is often much faster, closer to $\mathbf{O(b^d)}$, which is the complexity of finding a goal at depth d.  
-ii. **Space Complexity ($O(b^m)$)**: In the worst case, the algorithm must store all generated nodes in the queue, leading to exponential space consumption. This is a primary drawback, similar to Depth-First Search.  
+i. **Time Complexity (O(b^m))**: In the worst case, the search might explore the entire state space up to depth $m$ (the maximum depth). However, with a good heuristic, the search is often much faster, closer to $\mathbf{O(b^d)}$, which is the complexity of finding a goal at depth d.  
+ii. **Space Complexity (O(b^m))**: In the worst case, the algorithm must store all generated nodes in the queue, leading to exponential space consumption. This is a primary drawback, similar to Depth-First Search.  
