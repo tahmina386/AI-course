@@ -2,7 +2,7 @@ This algorithm implements Best-First Search (BFS), also known as Greedy Best-Fir
 ________________________________________
 **How the Algorithm Works:**  
 
-Best-First Search (BFS) is an informed search algorithm that uses a heuristic function ($h(n)$) to guide its search. It explores the node that appears to be closest to the goal first, based on the heuristic value. It is considered "greedy" because it only focuses on the immediate estimate of the cost to the goal, ignoring the path cost taken so far.  
+Best-First Search (BFS) is an informed search algorithm that uses a heuristic function (h(n)) to guide its search. It explores the node that appears to be closest to the goal first, based on the heuristic value. It is considered "greedy" because it only focuses on the immediate estimate of the cost to the goal, ignoring the path cost taken so far.  
 
 The process for this implementation is:  
 I.	Initialize a priority queue (or a list that is repeatedly sorted, as in this code) with the starting node, prioritized by its heuristic value, h(start).  
