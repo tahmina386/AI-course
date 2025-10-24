@@ -31,4 +31,5 @@ The time complexity of algorithms like Depth-First Search (DFS) depends on how t
 i.	**Adjacency List Representation**: The complexity is O(V + E), where V is the number of vertices (nodes) and E is the number of edges. This is efficient because to find all neighbors of a vertex, we only look at the edges actually connected to it. Every vertex is processed once, and every edge is examined once.  
 ii.	**Adjacency Matrix Representation**: The complexity is O(V^2). In this representation, checking the neighbors of a single vertex requires iterating through an entire row (or column) of the V x V matrix, which takes O(V) time. Since every vertex is processed, the total time is V x O(V) = O(V^2). This is less efficient for sparse graphs (graphs with few edges) but can be preferred for dense graphs (graphs with many edges).  
 
-**Space Complexity**: O(V) is required to store the visited set (or list) and the stack.
+**Space Complexity**:  
+O(V) is required to store the visited set (or list) and the stack.
