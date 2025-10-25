@@ -37,6 +37,7 @@ ________________________________________
 
 **Screenshot of the Game**  
 
+<img src="Screenshot 2025-10-25 144434.png" alt="Chess board" width="450"/>
 <img src="chess.png" alt="Chess board" width="450"/>
 
 ________________________________________
