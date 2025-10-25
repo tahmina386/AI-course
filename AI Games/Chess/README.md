@@ -32,6 +32,13 @@ c.	Complete the move: Click on one of the green circles to move the piece.
 3.	**AI Response (Black - Computer)**:  
 a.	After your move, the game will pause briefly. The Computer AI will then calculate and automatically execute its best move for Black.  
 4.	**Game End**: The game ends when a Checkmate occurs (a win/loss) or a Draw condition is met (e.g., Stalemate, Insufficient Material, 50-move rule, etc.). The final result will be displayed on the screen.
+
+________________________________________  
+
+**Screenshot of the Game**  
+
+<img src="chess.png" alt="Chess board" width="450"/>
+
 ________________________________________
 **Algorithm Used for AI**  
 
