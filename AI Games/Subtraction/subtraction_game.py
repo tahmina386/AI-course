@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 import math
-# os and sys imports were removed as they were not present in your provided code block, maintaining strict adherence to your request.
 
 # ----------------- Minimax Algorithm -----------------
 def minimax(stones, is_maximizing):
@@ -187,3 +186,4 @@ for i in [1, 2, 3]:
 
 # 8. Start the Tkinter event loop
 root.mainloop()
+
