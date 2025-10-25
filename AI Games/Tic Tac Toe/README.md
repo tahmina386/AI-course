@@ -31,9 +31,10 @@ b.	**AI**: Plays as "O" and goes second.
 
 ___________________________________
 
-**Screenshot of the Game**  
+**Screenshots of the Game**  
 
-<img src="tic_tac_toe.png" alt="Chess board" width="300"/>
+<img src="Screenshot 2025-10-25 150838.png" alt="tic_tac_toe" width="300"/>
+<img src="tic_tac_toe.png" alt="tic_tac_toe" width="300"/>
 
 ___________________________________
 
