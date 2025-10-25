@@ -27,6 +27,7 @@ __________________________________
 __________________________________
 
 **Algorithm Used**  
+
 The AI for this game employs the Minimax Algorithm.  
 
 **Minimax Principle**  
