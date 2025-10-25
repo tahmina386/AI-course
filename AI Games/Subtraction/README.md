@@ -23,7 +23,13 @@ __________________________________
 3.	**Moves**: On your turn, you must choose to remove exactly 1, 2, or 3 stones from the pile.  
 4.	**Winning**: The player who makes the final move, leaving zero stones, wins the game.  
 5.	**Gameplay**: Click one of the three buttons (Remove 1, Remove 2, Remove 3) to make your move. The AI will respond shortly after.
-   
+
+__________________________________
+
+**Screenshot of the Game**  
+
+<img src="subtraction.png" alt="Chess board" width="400"/>
+
 __________________________________
 
 **Algorithm Used**  
