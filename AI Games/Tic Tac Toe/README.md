@@ -31,6 +31,12 @@ b.	**AI**: Plays as "O" and goes second.
 
 ___________________________________
 
+**Screenshot of the Game**  
+
+<img src="tic_tac_toe.png" alt="Chess board" width="300"/>
+
+___________________________________
+
 **Algorithm Used**  
 
 The AI for this game employs the Minimax Algorithm.  
