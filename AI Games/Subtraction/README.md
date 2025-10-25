@@ -26,9 +26,10 @@ __________________________________
 
 __________________________________
 
-**Screenshot of the Game**  
+**Screenshots of the Game**  
 
-<img src="subtraction.png" alt="Chess board" width="400"/>
+<img src="Screenshot 2025-10-25 150753.png" alt="subtraction" width="400"/>
+<img src="subtraction.png" alt="subtraction" width="400"/>
 
 __________________________________
 
