@@ -31,8 +31,7 @@ b.	View legal moves: Small green circles will appear on all legal destination sq
 c.	Complete the move: Click on one of the green circles to move the piece.  
 3.	**AI Response (Black - Computer)**:  
 a.	After your move, the game will pause briefly. The Computer AI will then calculate and automatically execute its best move for Black.  
-4.	**Pawn Promotion**: Pawn promotion is handled automatically, promoting the pawn to a Queen upon reaching the eighth rank.  
-5.	**Game End**: The game ends when a Checkmate occurs (a win/loss) or a Draw condition is met (e.g., Stalemate, Insufficient Material, 50-move rule, etc.). The final result will be displayed on the screen.
+4.	**Game End**: The game ends when a Checkmate occurs (a win/loss) or a Draw condition is met (e.g., Stalemate, Insufficient Material, 50-move rule, etc.). The final result will be displayed on the screen.
 ________________________________________
 **Algorithm Used for AI**  
 
