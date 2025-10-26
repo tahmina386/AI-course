@@ -33,3 +33,11 @@ ii.	**Adjacency Matrix Representation**: The complexity is O(V^2). In this repre
 
 **Space Complexity**:  
 O(V) is required to store the visited set (or list) and the stack.
+________________________________________
+**Screenshots of the Game**  
+
+**INPUT**  
+<img src="Screenshot 2025-10-27 003707.png" width="450"/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 003711.png"/>
