@@ -23,3 +23,11 @@ I.	**Time Complexity**: $\mathbf{O(b^{d/2})}$
 II.	**Space Complexity**: $\mathbf{O(b^{d/2})}$  
 
 The space complexity is also $\mathbf{O(b^{d/2})}$ because two queues and two visited sets (or traversal trees) must be maintained for the nodes explored by both searches.
+________________________________________
+**Screenshots of the Game**  
+
+**INPUT**  
+<img src="Screenshot 2025-10-27 003404.png" width="300"/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 003410.png"/>
