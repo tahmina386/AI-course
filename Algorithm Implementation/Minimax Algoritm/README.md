@@ -27,3 +27,11 @@ The complexity is dependent on the size and depth of the game tree.
 2.	**Space Complexity (O(b x d))**: When implemented recursively (as shown), the space required is linear with the search depth, d, to store the recursion stack. This is generally manageable.
 
 In practice, the Minimax algorithm is often enhanced with Alpha-Beta Pruning to drastically reduce the number of nodes explored while guaranteeing the same result. The complexity remains $O(b^d)$ in the worst case but is closer to $O(b^{d/2})$ with a good ordering of moves.
+________________________________________
+**Screenshots of the Game**  
+
+**INPUT**  
+<img src="Screenshot 2025-10-27 005453.png" width="400"/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 005500.png" />
