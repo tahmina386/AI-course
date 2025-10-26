@@ -30,4 +30,11 @@ The Alpha-Beta Pruning algorithm, in the best-case scenario (when the best moves
 i.	Best-Case Complexity (Perfect Ordering): $O(b^{d/2})$ or $O(\sqrt{b^d})$  
 ii.	Worst-Case Complexity (No Pruning): $O(b^d)$ (Same as Minimax)  
 In practice, with good move ordering heuristics, the performance gain is substantial, effectively allowing the search to explore twice the depth in the same amount of time compared to standard Minimax.
+________________________________________
+**Screenshots of the Game**  
 
+**INPUT**  
+<img src="Screenshot 2025-10-27 002646.png" width="450"/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 002700.png" width="450"/>
