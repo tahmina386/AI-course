@@ -32,4 +32,11 @@ i.	**Time Complexity**: O(V + E)
 &nbsp;&nbsp;&nbsp;&nbsp;b.	This is because every vertex is enqueued/dequeued once, and every edge is examined once when its corresponding vertex is dequeued.  
 ii.	**Space Complexity**: O(V)  
 &nbsp;&nbsp;&nbsp;&nbsp;a.	This is dominated by the storage required for the visited set (or array) and the queue. In the worst case (e.g., a complete graph or a long line), the queue might hold close to V nodes.
+________________________________________
+**Screenshots of the Game**  
 
+**INPUT**  
+<img src="Screenshot 2025-10-27 003523.png" width="320"/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 003529.png"/>
