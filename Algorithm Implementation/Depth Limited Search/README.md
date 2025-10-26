@@ -27,3 +27,11 @@ ________________________________________
 The complexity of DLS is similar to DFS but is restricted by the limit (L) instead of the full depth of the graph. V is the number of vertices and E is the number of edges.  
 i.	**Time Complexity (O(b^L))**: The algorithm explores a tree structure up to depth L. b is the branching factor (the average number of neighbors per node). In a worst-case graph scenario using an Adjacency List, the complexity is $O(V_{L} + E_{L})$, where $V_{L}$ and $E_{L}$ are the number of vertices and edges within the limit L. The exponential complexity ($b^L$) is often cited for tree-based searches and is a simpler way to represent the time spent.  
 ii.	**Space Complexity (O(b x L))**: This is linear with respect to the limit. The maximum size of the stack is bounded by the branching factor (b) times the limit (L).  
+________________________________________
+**Screenshots of the Game**  
+
+**INPUT**  
+<img src="Screenshot 2025-10-27 004435.png" width="300"/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 004442.png" />
