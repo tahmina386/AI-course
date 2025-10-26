@@ -1,5 +1,5 @@
 tree = {}        # adjacency list for game tree
-utilities = {}   
+utilities = {}   # leaf node utilities
 
 n = int(input("Number of nodes in the game tree: "))
 for i in range(n):
@@ -11,54 +11,50 @@ for i in range(n):
         vals = list(map(int, input(f"Utility values of leaf node {node} (space separated): ").split()))
         utilities[node] = vals
 
-pruned_nodes = []   
-prune_count = 0     # total pruning count
+pruned_nodes = []
+prune_count = 0
 
-def alphabeta(node, depth, alpha, beta, path):
+def alphabeta(node, depth, alpha, beta):
     global prune_count, pruned_nodes
 
     if node in utilities:
-        if depth % 2 == 0:   # Max
-            chosen = max(utilities[node])
-        else:                # Min
-            chosen = min(utilities[node])
-        return chosen, path + [f"{node}({chosen})"]
+        chosen = max(utilities[node]) if depth % 2 == 0 else min(utilities[node])
+        return chosen, [f"{node}({chosen})"]
 
-    # Max
-    if depth % 2 == 0:
-        best_val = -999999
+    if depth % 2 == 0:  # Max node
+        best_val = float('-inf')
         best_path = []
-        for child in tree.get(node, []):
-            val, new_path = alphabeta(child, depth + 1, alpha, beta, path + [node])
+        for i, child in enumerate(tree[node]):
+            val, path = alphabeta(child, depth + 1, alpha, beta)
             if val > best_val:
                 best_val = val
-                best_path = new_path
+                best_path = [node] + path
             alpha = max(alpha, best_val)
-            if beta <= alpha:  
-                prune_count += 1
-                pruned_nodes.extend(tree[node][tree[node].index(child)+1:])
+            if beta <= alpha:
+                pruned = tree[node][i+1:]
+                pruned_nodes.extend(pruned)
+                prune_count += len(pruned)
                 break
         return best_val, best_path
-
-    # Min
-    else:
-        best_val = 999999
+    else:  # Min node
+        best_val = float('inf')
         best_path = []
-        for child in tree.get(node, []):
-            val, new_path = alphabeta(child, depth + 1, alpha, beta, path + [node])
+        for i, child in enumerate(tree[node]):
+            val, path = alphabeta(child, depth + 1, alpha, beta)
             if val < best_val:
                 best_val = val
-                best_path = new_path
+                best_path = [node] + path
             beta = min(beta, best_val)
-            if beta >= alpha:   # Pruning happens
-                prune_count += 1
-                pruned_nodes.extend(tree[node][tree[node].index(child)+1:])
+            if beta <= alpha:
+                pruned = tree[node][i+1:]
+                pruned_nodes.extend(pruned)
+                prune_count += len(pruned)
                 break
         return best_val, best_path
 
-
 root = input("Enter root node of the game tree: ")
-value, decision_path = alphabeta(root, 0, -999999, 999999, [])
+value, decision_path = alphabeta(root, 0, float('-inf'), float('inf'))
+
 print(f"\nOptimal value at root '{root}': {value}")
 print("Decision path:", " → ".join(decision_path))
 print("\nTotal prunings:", prune_count)
