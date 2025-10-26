@@ -25,4 +25,11 @@ ________________________________________
 The complexity of Beam Search is significantly better than a full Best-First Search, provided the beam width k is small. k is the beam width, b is the branching factor, and d is the depth of the solution.  
 i.	**Time Complexity**: Since only k nodes are kept at each depth, and each has at most b successors, the time spent per level is largely dominated by generating successors (O(k . b)) and sorting the k . b  candidates (O(k . b log(k . b))). For practical purposes where b is often included in the constant factor, the time is often cited as $\mathbf{O(d \cdot k \cdot \log k)}$.  
 ii.	**Space Complexity**: Only the nodes in the current beam and their immediate successors need to be stored, resulting in a linear space complexity of $\mathbf{O(d \cdot k)}$, which is a major advantage over exponential complexity algorithms.
+________________________________________
+**Screenshots of the Game**  
 
+**INPUT**  
+<img src="Screenshot 2025-10-27 005238.png" width="450"/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 005247.png" />
