@@ -43,4 +43,12 @@ where b is the branching factor (average number of successors per node) and d is
 •	Admissible and Consistent Heuristics: With a good (informed) heuristic that is both admissible and consistent, the complexity is significantly reduced, often becoming polynomial in terms of the number of nodes expanded.  
 •	Space Complexity: The space complexity is often the main bottleneck, as the algorithm needs to store all generated nodes in the priority queue and a record of visited nodes:  
 <p align=center>O(b^d)</p>  
+________________________________________  
 
+**Screenshots of the Game**  
+
+**INPUT**  
+<img src="Screenshot 2025-10-27 003159.png" width=300/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 003205.png"/>
