@@ -25,4 +25,11 @@ ________________________________________
 The complexity of IDS is analyzed relative to b (the branching factor) and d (the depth of the shallowest goal).  
 i.	**Time Complexity (O(b^d))**: Despite repeated searches, the time complexity is dominated by the searches at the deepest level. The total number of nodes visited is about 1.2 times the number of nodes visited by a single BFS/DFS, which is asymptotically equivalent to $\mathbf{O(b^d)}$.  
 ii.	**Space Complexity (O(b \times d))**: Because it only performs DLS at each iteration, the maximum number of nodes stored on the call stack (or the explicit stack for an iterative DLS) is linear with respect to the depth limit $\mathbf{O(b \times d)}$. This memory efficiency is a major advantage over BFS.
+________________________________________
+**Screenshots of the Game**  
 
+**INPUT**  
+<img src="Screenshot 2025-10-27 004926.png" width="450"/>  
+
+**OUTPUT**  
+<img src="Screenshot 2025-10-27 004938.png" />
